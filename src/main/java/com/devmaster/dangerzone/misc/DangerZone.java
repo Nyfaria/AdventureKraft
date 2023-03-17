@@ -49,7 +49,7 @@ public class DangerZone {
     public static final ItemGroup  FOOD = new DangerZoneFood();
     public static final ItemGroup WIP = new DangerZoneWIP();
     public static final ITag.INamedTag<Block> MINERS_DREAM_MINEABLE = BlockTags.makeWrapperTag(DangerZone.MOD_ID+":miners_dream_breakable");
-    public static final ITag.INamedTag<Block> GODZILLA_DESTROYABLE = BlockTags.makeWrapperTag(DangerZone.MOD_ID+":godzilla_breakable");
+//    public static final ITag.INamedTag<Block> GODZILLA_DESTROYABLE = BlockTags.makeWrapperTag(DangerZone.MOD_ID+":godzilla_breakable");
 
 
     public DangerZone() {
@@ -78,13 +78,13 @@ public class DangerZone {
             GlobalEntityTypeAttributes.put(RegistryHandler.ENT.get(), Ent.getAttributes().create());
             GlobalEntityTypeAttributes.put(RegistryHandler.CAVE_FISHER.get(), CaveFisher.getAttributes().create());
             GlobalEntityTypeAttributes.put(RegistryHandler.ATTACK_SQUID.get(), AttackSquid.getAttributes().create());
-            GlobalEntityTypeAttributes.put(RegistryHandler.HYDROLISC.get(), Hydrolisc.getAttributes().create());
+//            GlobalEntityTypeAttributes.put(RegistryHandler.HYDROLISC.get(), Hydrolisc.getAttributes().create());
             GlobalEntityTypeAttributes.put(RegistryHandler.ALLOSAURUS.get(), Allosaurus.getAttributes().create());
             GlobalEntityTypeAttributes.put(RegistryHandler.BIRD.get(), Bird.getAttributes().create());
             GlobalEntityTypeAttributes.put(RegistryHandler.TECHNOBLADE.get(), Technoblade.getAttributes().create());
             GlobalEntityTypeAttributes.put(RegistryHandler.MERMAID.get(), Mermaid.getAttributes().create());
             GlobalEntityTypeAttributes.put(RegistryHandler.RED_COW.get(), RedCow.getAttributes().create());
-            GlobalEntityTypeAttributes.put(RegistryHandler.GODZILLA.get(), Godzilla.getAttributes().create());
+//            GlobalEntityTypeAttributes.put(RegistryHandler.GODZILLA.get(), Godzilla.getAttributes().create());
             GlobalEntityTypeAttributes.put(RegistryHandler.ALEXICRAFT.get(), AlexiCraft.getAttributes().create());
             GlobalEntityTypeAttributes.put(RegistryHandler.ANTVENOM.get(), AntVenom.getAttributes().create());
             GlobalEntityTypeAttributes.put(RegistryHandler.APHMAU.get(), Aphmau.getAttributes().create());
@@ -113,17 +113,17 @@ public class DangerZone {
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.ENT.get(), EntRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.WATER_PROJECTILE.get(), WaterProjectileRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.CAVE_FISHER.get(), CaveFisherRender::new);
-        RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.HYDROLISC.get(), HydroliscRender::new);
+//        RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.HYDROLISC.get(), HydroliscRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.ALLOSAURUS.get(), AllosaurusRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.BIRD.get(), BirdRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.TECHNOBLADE.get(), TechnobladeRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.MERMAID.get(), MermaidRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.RED_COW.get(), RedCowRender::new);
-        RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.GODZILLA.get(), GodzillaRender::new);
+//        RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.GODZILLA.get(), GodzillaRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.ALEXICRAFT.get(), AlexiCraftRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.ANTVENOM.get(), AntVenomRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.APHMAU.get(), AphmauRender::new);
-        RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.BABYANGEL.get(), BabyAngelRender::new);
+//        RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.BABYANGEL.get(), BabyAngelRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.BABYDUCK.get(), BabyDuckRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.BABYLEAH.get(), BabyLeahRender::new);
         RenderingRegistry.registerEntityRenderingHandler(RegistryHandler.BABYMAX.get(), BabyMaxRender::new);
